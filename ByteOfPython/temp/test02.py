@@ -44,3 +44,15 @@ class demo3:
 
 demo4 = demo3("zs")
 demo4.print()
+
+print('---------------')
+class demo4:
+    def __init__(self, init_value):
+        self.my_value = init_value
+
+    def print(self):
+        print("value = " , self.my_value)
+
+demo5 = demo4("ls")
+print(demo5.my_value)
+demo5.print()
