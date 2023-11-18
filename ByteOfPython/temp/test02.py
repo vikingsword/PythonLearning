@@ -19,6 +19,7 @@ print(demo1)
 
 print('------------')
 
+
 class demo2:
     def __init__(self, value):
         self.value = value
@@ -29,3 +30,17 @@ class demo2:
 
 demo3 = demo2("vikingar")
 demo3.print()
+
+print('------------')
+
+
+class demo3:
+    def __init__(self, value):
+        self.value = value
+
+    def print(self):
+        print(self.value)
+
+
+demo4 = demo3("zs")
+demo4.print()
