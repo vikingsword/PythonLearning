@@ -7,6 +7,7 @@ def getRes(input):
 
 
 str = getName()
+
 print(str)
 
 print('-----------')
