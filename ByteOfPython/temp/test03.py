@@ -19,3 +19,5 @@ if __name__ == '__main__':
     s2 = Student("ls", 20)
     s2.print()
     print(s2)
+
+
