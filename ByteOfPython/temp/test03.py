@@ -10,6 +10,8 @@ class Student:
     def __str__(self):
         return "init str"
 
+s2 = Student("ls", 20)
+s2.print()
 
 if __name__ == '__main__':
     s = Student("zs", 29)
