@@ -8,7 +8,7 @@ class Student:
         print("age = ", self.age)
 
     def __str__(self):
-        print("init str")
+        return "init str"
 
 
 if __name__ == '__main__':
