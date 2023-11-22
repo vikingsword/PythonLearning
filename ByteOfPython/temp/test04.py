@@ -14,9 +14,19 @@ print('-----------')
 
 
 class Person:
+
+    def __init__(self, name):
+        self.name = name
+
     def say_hi(self):
         print('Hello,	how	are	you?')
 
+    def say_my_name(self):
+        print('my name is', self.name)
 
-p = Person()
+
+p = Person("Heisenberg")
 p.say_hi()
+p.say_my_name()
+
+
