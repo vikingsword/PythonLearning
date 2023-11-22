@@ -9,3 +9,14 @@ class Demo:
 
 d = Demo(1, 1)
 d.get_name()
+
+print('-----------')
+
+
+class Person:
+    def say_hi(self):
+        print('Hello,	how	are	you?')
+
+
+p = Person()
+p.say_hi()
