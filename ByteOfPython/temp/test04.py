@@ -24,9 +24,12 @@ class Person:
     def say_my_name(self):
         print('my name is', self.name)
 
+    def test(self):
+        print('you name is {}, thanks'.format(self.name))
+
 
 p = Person("Heisenberg")
 p.say_hi()
 p.say_my_name()
-
+p.test()
 
