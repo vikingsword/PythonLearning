@@ -6,9 +6,8 @@ class GetContent:
         self.url = url
 
     def get(self):
-        res = requests.get(self.url)
-        return res.content
+        return requests.get(self.url).content
 
 url = 'https://www.baidu.com'
-con = GetContent(url)
+con = GetContent(url).get()
 print(con)
